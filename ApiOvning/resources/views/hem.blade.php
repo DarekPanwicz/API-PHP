@@ -109,27 +109,25 @@
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
 
-								</tr>
+								</tr>@foreach ($apiUsers as $apiUser)
 								<tr>
 									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
+
+
+
+											<p>Namn: {{ $apiUser->name }}</p>
 									</td>
+
+
+
+
+
 									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
 									<td>Fulltime <br/>on campus <br/>2 Years</td>
 									<td>Ontario College<br/> Of Diploma</td>
 
 								</tr>
-
+								@endforeach
 
 
 
