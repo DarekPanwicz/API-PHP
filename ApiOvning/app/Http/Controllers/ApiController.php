@@ -8,6 +8,7 @@ class ApiController extends Controller
 {
     public function getApi()
     {
+
         // API: lista alla användare
         $url = 'https://jsonplaceholder.typicode.com/users';
         $data = file_get_contents($url);
@@ -21,18 +22,10 @@ class ApiController extends Controller
         // API: genomförda Task
         $url = 'https://jsonplaceholder.typicode.com/todos?completed=true';
         $data = file_get_contents($url);
-        $apiFinishTask = json_decode($data);
+        $apiTasks = json_decode($data);
 
 
-
-
-
-
-        return view('hem', compact('apiUsers', 'apiTodo', 'apiFinishTask'));
-
-
-
-
+        return view('hem', compact('apiUsers', 'apiTodo', 'apiTasks'));
 
     }
 }
