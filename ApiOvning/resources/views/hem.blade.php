@@ -109,8 +109,8 @@
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
 
-								</tr>@foreach ($apiUsers as $apiUser)
-								<tr>
+								</tr>
+								@foreach ($apiUsers as $apiUser)<tr>
 									<td>
 
 
@@ -125,32 +125,24 @@
 												Lägenhet nr: {{ $apiUser->address->suite }} <br>
 												Stad: {{ $apiUser->address->city }} <br>
 												Postkod: {{ $apiUser->address->zipcode }} <br>
-
-
 											</p>
+
 									</td>
 
 
 
 
 
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
+									<td>
+
+									</td>
+
+
+									<td>mmm</td>
+									<td>mmm</td>
 
 								</tr>
 								@endforeach
-
-
-
-
-
-
-
-
-
-
-
 								</tbody>
 							</table>
 						</div><!--End courses-->
@@ -158,7 +150,7 @@
 						<ul class="pagination">
 							<li>
 								<a aria-label="Previous" href="#">
-									<span aria-hidden="true">Previous</span>
+									<span aria-hidden="true">Föregående</span>
 								</a>
 							</li>
 							<li class="active"><a href="#">1</a></li>
@@ -171,7 +163,7 @@
 							<li><a href="#">38</a></li>
 							<li>
 								<a aria-label="Next" href="#">
-									<span aria-hidden="true">Next</span>
+									<span aria-hidden="true">Nästa</span>
 								</a>
 							</li>
 						</ul>
@@ -199,7 +191,7 @@
 		<div class="container">
 			<div class="row clearfix">
 				<div class="col-sm-6 col-xs-12 copyRight">
-					<p>© 2018 Darek Panwicz </p>
+					<p>© 2018 Darek P </p>
 				</div><!-- col-sm-6 col-xs-12 -->
 
 			</div><!-- row clearfix -->

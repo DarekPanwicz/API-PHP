@@ -17,7 +17,7 @@ class ApiController extends Controller
         // API: Task för en specifik användare
         $url = 'https://jsonplaceholder.typicode.com/todos?userId=1';
         $data = file_get_contents($url);
-        $apiTodo = json_decode($data);
+        $apiTodos = json_decode($data, true);
 
         // API: genomförda Task
         $url = 'https://jsonplaceholder.typicode.com/todos?completed=true';
@@ -25,7 +25,7 @@ class ApiController extends Controller
         $apiTasks = json_decode($data);
 
 
-        return view('hem', compact('apiUsers', 'apiTodo', 'apiTasks'));
+        return view('hem', compact('apiUsers', 'apiTodos', 'apiTasks'));
 
     }
 }
