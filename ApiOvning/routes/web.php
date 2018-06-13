@@ -15,4 +15,4 @@
     return view('welcome');
 });*/
 
-Route::get('/', 'ApiController@getApi´);
+Route::get('/', 'ApiController@getApi');
