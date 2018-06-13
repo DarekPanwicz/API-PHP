@@ -64,7 +64,7 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<a class="navbar-brand logo clearfix logoSize" href="/"><img src="{{ asset("img/logoAPI.png") }}" alt="" class="img-responsive" /></a>
+								<a class="navbar-brand logo clearfix logoSize" href="/"><img src="{{ asset("img/logoJson.png") }}" alt="" class="img-responsive" /></a>
 							</div>
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="main-nav">
@@ -94,21 +94,21 @@
 							<table class="table table-bordered table-striped">
 								<thead>
 								<tr>
-									<th>Program Name</th>
-									<th>Area Of Interest</th>
-									<th>Duration</th>
-									<th>Type</th>
-									<th>Campus</th>
+									<th>Användarensuppgifter</th>
+									<th>lista med alla TODO’s</th>
+									<th>TODO’s som är färdiga</th>
+									<th>TODO’s som är ICKE färdiga</th>
+
 
 								</tr>
 								</thead>
 								<tbody>
 								<tr class="option">
-									<td>A</td>
+									<td></td>
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
 									<td>&nbsp;</td>
-									<td>&nbsp;</td>
+
 								</tr>
 								<tr>
 									<td>
@@ -127,217 +127,20 @@
 									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
 									<td>Fulltime <br/>on campus <br/>2 Years</td>
 									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
+
 								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
-								<tr>
-									<td>
-										<ul>
-											<li class="active">
-												<a href="single-course-right-sidebar.html">Architectural Technician (Weekend)</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Computers and Engineering</a>
-											</li>
-											<li>
-												<a href="single-course-right-sidebar.html">Continuing Education</a>
-											</li>
-										</ul>
-									</td>
-									<td>Engineering &amp; Architecture <br/>(Fulltime on campus)</td>
-									<td>Fulltime <br/>on campus <br/>2 Years</td>
-									<td>Ontario College<br/> Of Diploma</td>
-									<td>Ottawa</td>
-								</tr>
+
+
+
+
+
+
+
+
+
+
+
+
 								</tbody>
 							</table>
 						</div><!--End courses-->

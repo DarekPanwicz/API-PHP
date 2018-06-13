@@ -427,9 +427,9 @@ li.language.dropdown > a:hover, li.language.dropdown > a:focus {
   }
 }
 .header .navbar-brand img {
-  width: 40%;
+  width: 90%;
   margin: 18px 0;
-  margin-top: -10px;
+  margin-top: 0px;
 
 }
 .header .navbar-collapse {
