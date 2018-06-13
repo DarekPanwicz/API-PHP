@@ -115,7 +115,19 @@
 
 
 
-											<p>Namn: {{ $apiUser->name }}</p>
+											<p>
+												Användarnamn: {{ $apiUser->username }} <br>
+										        Namn: {{ $apiUser->name }} <br>
+												E-post: {{ $apiUser->email }} <br>
+												<hr>
+												Adress:
+												Gåta: {{ $apiUser->address->street }} <br>
+												Lägenhet nr: {{ $apiUser->address->suite }} <br>
+												Stad: {{ $apiUser->address->city }} <br>
+												Postkod: {{ $apiUser->address->zipcode }} <br>
+
+
+											</p>
 									</td>
 
 
